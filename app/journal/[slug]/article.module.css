@@ -1,0 +1,28 @@
+.articlePage { padding: 30px 0 100px; }
+.articleHeader { max-width: 750px; margin: 0 auto; text-align: center; }
+.articleHeaderH1 { margin: 20px 0 28px; font-size: clamp(28px, 4vw, 48px); }
+.articleAuthorRow { display: flex; align-items: center; gap: 12px; justify-content: center; }
+.articleAvatar {
+  width: 40px; height: 40px; border-radius: 50%; background: var(--gold); color: var(--black);
+  display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 16px;
+}
+.articleAvatarLg { width: 56px; height: 56px; border-radius: 50%; background: var(--gold); color: var(--black); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 22px; }
+.authorName { font-weight: 600; font-size: 14px; display: block; }
+.authorRole { font-size: 13px; color: var(--lightgray); }
+.articleCover { width: 100%; max-width: 900px; margin: 50px auto; aspect-ratio: 21/9; border-radius: var(--radius-lg); }
+.articleBody { max-width: 750px; margin: 0 auto; font-size: 17px; line-height: 1.85; color: var(--lightgray); }
+.articleBody h2 { font-family: var(--font-display); font-size: 28px; font-weight: 700; color: var(--offwhite); margin: 40px 0 16px; line-height: 1.2; }
+.articleBody h3 { font-family: var(--font-display); font-size: 22px; font-weight: 600; color: var(--offwhite); margin: 30px 0 12px; }
+.articleBody p { margin-bottom: 20px; }
+.articleBody strong { color: var(--offwhite); font-weight: 600; }
+.articleBody a { color: var(--gold); text-decoration: underline; text-underline-offset: 3px; }
+.articleShare {
+  max-width: 750px; margin: 40px auto; display: flex; align-items: center; gap: 16px;
+  padding: 20px 0; border-top: 1px solid rgba(200,200,200,0.08); border-bottom: 1px solid rgba(200,200,200,0.08);
+}
+.articleShareLink { font-size: 14px; color: var(--lightgray); transition: color 0.3s ease; }
+.articleShareLink:hover { color: var(--gold); }
+.authorBox { max-width: 750px; margin: 30px auto; display: flex; align-items: center; gap: 20px; }
+.authorBoxName { font-size: 16px; margin-bottom: 4px; }
+.articleCta { text-align: center; margin-top: 60px; }
+.articleCtaH3 { font-size: 24px; margin-bottom: 12px; }
